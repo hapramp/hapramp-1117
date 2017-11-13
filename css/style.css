@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.text-color-white {
+    color: white;
+}
+
+.text-color-white-a70 {
+    color: rgba(255, 255, 255, 0.71);
+}
+
+.title-text {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 700;
+}
+
+
+header {
+    background: url("../img/deco.png"),linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
+    min-height: 100vh;
+}
+
+header .uk-navbar-nav>li>a {
+    color: white;
+}
+
+header .uk-navbar-nav>li>a:hover {
+    color: black;
+}
+
+header.uk-active {
+    background-color: white;
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    align-items: center;
+}
+
+.uk-navbar-nav>li>a.active {
+    color: #ee395b;
+}
+
+.grand-title {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.hero-cta input {
+    height: 64px;
+    padding-left: 30px;
+}
+
+.hero-cta button.submit {
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding: 0 40px;
+    height: 64px;
+    position: relative;
+    left: -35px;
+    border: 0;
+}
+
+.hero-cta .uk-input:focus {
+    border-color:white;
+}
