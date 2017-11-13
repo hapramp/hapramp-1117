@@ -21,6 +21,8 @@ body {
 
 header {
     background: url("../img/deco.png"),linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -48,6 +50,10 @@ header.uk-active {
 .grand-title {
     font-size: 64px;
     line-height: 84px;
+}
+
+.hero-contents .sub-title {
+    padding-right: 100px;
 }
 
 .hero-cta input {
