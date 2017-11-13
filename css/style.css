@@ -218,6 +218,10 @@ header.uk-active {
     border-radius: 10px;
 }
 
+.roadmap-title {
+    margin-bottom: 8px;
+}
+
 .roadmap-card-wrapper {
     position: relative;
 }
@@ -272,4 +276,43 @@ header.uk-active {
 .roadmap-connect.right {
     right: 400px;
     left: 50%;
+}
+
+.member-thumb {
+    display: inline-block;
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.member-thumb img {
+    border-radius: 50%;
+}
+
+.member-thumb .thumb-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 50%;
+    background: linear-gradient(-160deg, rgba(255, 199, 150, 0.45) 0%, rgba(255, 107, 149, 0.45) 100%);
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+.member-thumb:hover .thumb-overlay:after {
+
+}
+
+.member-thumb .thumb-overlay:hover {
+    opacity: 0;
+}
+
+.social-links .uk-icon-button{
+    background-color: rgba(255, 107, 149, 0.75);
+    color: white;
+}
+.social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover{
+    background-color: #FF6B95;
+    color: white;
 }
