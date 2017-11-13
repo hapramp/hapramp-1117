@@ -18,6 +18,33 @@ body {
     font-weight: 700;
 }
 
+.color-black-a54 {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 16px solid rgba(255, 107, 149, 0.8);
+    position: relative;
+    top: -27px;
+    margin: 4px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid rgba(255, 199, 150, 0.8);
+    position: relative;
+    top: 27px;
+    margin: 4px;
+}
+
+
 
 header {
     background: url("../img/deco.png"),linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
@@ -74,4 +101,13 @@ header.uk-active {
 
 .hero-cta .uk-input:focus {
     border-color:white;
+}
+
+.title-deco {
+    text-transform: uppercase;
+}
+
+.title-deco-text {
+    margin-left: 8px;
+    margin-right: 4px;
 }
