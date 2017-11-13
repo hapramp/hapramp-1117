@@ -15,7 +15,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "uikit": "https://github.com/uikit/uikit"
-  }
+  "dependencies": {}
 }
