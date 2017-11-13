@@ -199,6 +199,10 @@ header.uk-active {
     position: relative;
 }
 
+.roadmap .title-deco .triangle-down{
+    border-top-color: white;
+}
+
 .roadmap-wrapper {
     display: flex;
     flex-direction: column;
