@@ -316,3 +316,18 @@ header.uk-active {
     background-color: #FF6B95;
     color: white;
 }
+
+.supp-wrapper{
+    justify-content: center;
+}
+
+.supp-logo-wrapper {
+    display: inline-block;
+    border: 1px dashed #ee6893;
+    padding: 38px 30px;
+    border-radius: 50%;
+}
+
+.supp-wrapper .logo {
+    width: 70px;
+}
