@@ -2,11 +2,16 @@
 body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
+    color: rgba(0, 0, 0, 0.38);
+    overflow-x: hidden;
 }
-
 
 .text-color-white {
     color: white;
+}
+
+.text-color-primary {
+    color: #FF6B95;
 }
 
 .text-color-white-a70 {
@@ -42,6 +47,32 @@ body {
     position: relative;
     top: 27px;
     margin: 4px;
+}
+
+.circle-feat {
+    width: 900px;
+    height: 900px;
+    background: linear-gradient(160deg, #FFC796 0%, #FF6B95 100%);
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    position: absolute;
+    z-index: -1;
+    right: -280px;
+    top: 64px;
+}
+
+.circle-coin {
+    width: 680px;
+    height: 680px;
+    background: linear-gradient(-160deg, #FFC796 0%, #FF6B95 100%);
+    -moz-border-radius: 350px;
+    -webkit-border-radius: 350px;
+    border-radius: 350px;
+    position: absolute;
+    z-index: -1;
+    left: -550px;
+    top: -172px;
 }
 
 
@@ -83,12 +114,13 @@ header.uk-active {
     padding-right: 100px;
 }
 
-.hero-cta input {
+.cta input {
     height: 64px;
     padding-left: 30px;
+    padding-right: 50px;
 }
 
-.hero-cta button.submit {
+.cta button.submit {
     background-color: #000;
     color: #fff;
     border-radius: 40px;
@@ -96,12 +128,26 @@ header.uk-active {
     height: 64px;
     position: relative;
     left: -35px;
-    border: 0;
+    border-color: transparent;
 }
 
-.hero-cta .uk-input:focus {
+.cta .uk-input:focus {
     border-color:white;
 }
+
+.feat.cta input{
+    height: 56px;
+}
+
+.feat.cta input:focus {
+    border-color:rgba(0, 0, 0, 0.12);
+    /*border: 1px solid rgba(0, 0, 0, 0.12);*/
+}
+
+.feat.cta button {
+    height: 56px;
+}
+
 
 .title-deco {
     text-transform: uppercase;
@@ -110,4 +156,19 @@ header.uk-active {
 .title-deco-text {
     margin-left: 8px;
     margin-right: 4px;
+}
+
+.feat-wrapper ,.coin-wrapper {
+    position: relative;
+}
+
+.feat-img {
+    position: absolute;
+    right: -420px;
+    top: -40px;
+}
+
+.coin-img img{
+    position: absolute;
+    top: -50px;
 }
