@@ -6,6 +6,19 @@ body {
     overflow-x: hidden;
 }
 
+nav.uk-active {
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+nav.uk-active .uk-navbar-nav>li>a {
+    color: rgba(0, 0, 0, 0.55);
+}
+
+nav.uk-active .uk-navbar-nav>li>a:hover {
+    color: #ee395b;
+}
+
 .text-color-white {
     color: white;
 }
