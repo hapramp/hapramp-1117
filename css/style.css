@@ -195,18 +195,6 @@ header.uk-active {
     align-self: flex-start;
 }
 
-/*.roadmap-card.left:after {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: calc(50% - 400px);
-    background-color: #fff;
-    left: 400px;
-    !* border: 1px dotted #fff; *!
-    !* top: 50%; *!
-}*/
-
-
 .roadmap-card-wrapper.right {
     display: flex;
     justify-content: flex-end;
@@ -330,4 +318,31 @@ header.uk-active {
 
 .supp-wrapper .logo {
     width: 70px;
+}
+
+.hap-social {
+    align-items: center;
+    border-left: 1px dashed #fff;
+    padding-left: 100px;
+}
+
+.hap-meta {
+    padding-right: 100px;
+}
+
+.hap-social a{
+    width: 64px;
+    height: 64px;
+}
+
+.hap-social a {
+    color: rgba(255, 107, 149, 0.76);
+}
+
+.hap-social a:hover {
+    color: #FF6B95;
+}
+
+footer {
+    background-image: linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
 }
