@@ -141,7 +141,7 @@ header.uk-active {
     padding-right: 50px;
 }
 
-.cta button.submit {
+.cta button.submit, .cta input.submit {
     background-color: #000;
     color: #fff;
     border-radius: 40px;
@@ -165,8 +165,13 @@ header.uk-active {
     /*border: 1px solid rgba(0, 0, 0, 0.12);*/
 }
 
-.feat.cta button {
+.feat.cta  button, .feat.cta input.submit  {
     height: 56px;
+}
+
+.feat.cta input.submit {
+    display: inline-block !important;
+    margin: 0 !important;
 }
 
 
