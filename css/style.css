@@ -19,6 +19,14 @@ nav.uk-active .uk-navbar-nav>li>a:hover {
     color: #ee395b;
 }
 
+nav.uk-navbar-nav {
+    justify-content:flex-end;
+}
+
+.humberg-menu {
+    display: none;
+}
+
 .text-color-white {
     color: white;
 }
@@ -367,6 +375,23 @@ header.uk-active {
 
 footer {
     background-image: linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
+}
+
+@media (max-width: 520px) {
+
+    nav.uk-navbar > .uk-navbar-center {
+        margin-right: 0;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .humberg-menu {
+        display: flex;
+    }
+
+
 }
 
 @media (max-width: 450px) {
