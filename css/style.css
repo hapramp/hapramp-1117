@@ -377,6 +377,12 @@ footer {
     background-image: linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
 }
 
+@media (max-width: 400px) {
+    .hero-contents .sub-title {
+        display: none;
+    }
+}
+
 @media (max-width: 520px) {
 
     nav.uk-navbar > .uk-navbar-center {
@@ -407,6 +413,27 @@ footer {
 
 
 @media (max-width: 640px) {
+    .hero-contents .sub-title {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .grand-title {
+        text-align: center;
+    }
+
+    .feat-wrapper {
+        text-align: center;
+    }
+
+    .coin-wrapper {
+        text-align: center;
+    }
+
+    .cta input {
+        text-align: center;
+    }
+
     .hap-social {
 
     }
