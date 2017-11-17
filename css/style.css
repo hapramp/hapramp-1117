@@ -158,6 +158,11 @@ header.uk-active {
     position: relative;
     left: -35px;
     border-color: transparent;
+    transition: all 0.3s;
+}
+
+.cta button.submit:hover, .cta input.submit:hover {
+    background-color: rgb(35, 35, 35);
 }
 
 .cta .uk-input:focus {
