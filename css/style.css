@@ -354,6 +354,13 @@ header.uk-active {
 .supp-wrapper .logo {
     width: 70px;
 }
+.supp-wrapper .logo.full-width {
+    width: 135px;
+}
+
+.supp-logo-wrapper.remove-border {
+    border: none;
+}
 
 .hap-social {
     align-items: center;
