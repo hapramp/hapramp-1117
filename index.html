@@ -57,7 +57,7 @@
                     <div class="cta uk-margin-medium-top">
                         <form id="early-access" action="">
                             <div class="uk-margin" uk-margin>
-                                <input id="early-access-input" class="email uk-width-1-2@s uk-input" type="text" placeholder="Enter Your Email" name="email">
+                                <input id="early-access-input" class="email uk-width-1-2@s uk-input" type="email" placeholder="Enter Your Email" name="email" required>
 
                                 <button class="submit uk-button uk-button-default">Join Invite List</button>
                             </div>
@@ -124,15 +124,17 @@
                     <div>
                         <form id="request-apk" action=""
                               method="post" name="subscribe-form"
-                              class="validate" target="_blank" novalidate>
+                              class="validate" target="_blank">
                             <div class="uk-margin">
                                 <input type="email" value="" name="EMAIL"
                                        class="required email uk-width-1-2@s uk-input"
-                                       placeholder="Enter Your Email">
-                                <input type="submit"
+                                       placeholder="Enter Your Email" required>
+                                <button type="submit"
                                        name="subscribe"
                                        value="Request APK"
                                        class="submit uk-button uk-button-default">
+                                    Request APK
+                                </button>
                             </div>
                         </form>
                     </div>
