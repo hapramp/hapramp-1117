@@ -16,11 +16,15 @@ nav.uk-active .uk-navbar-nav>li>a {
 }
 
 nav.uk-active .uk-navbar-nav>li>a:hover {
-    color: #ee395b;
+    color: #3F72AF;
 }
 
 nav.uk-navbar-nav {
     justify-content:flex-end;
+}
+
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
+    color: white;
 }
 
 .humberg-menu {
@@ -32,11 +36,11 @@ nav.uk-navbar-nav {
 }
 
 .text-color-primary {
-    color: #FF6B95;
+    color: #3F72AF;
 }
 
 .text-color-yellow {
-    color: #FFC796;
+    color: #112D4E;
 }
 
 .text-color-white-a70 {
@@ -61,7 +65,7 @@ nav.uk-navbar-nav {
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-bottom: 16px solid rgba(255, 107, 149, 0.8);
+    border-bottom: 16px solid rgba(63, 114, 175, 0.8);
     position: relative;
     top: -27px;
     margin: 4px;
@@ -81,7 +85,7 @@ nav.uk-navbar-nav {
 .circle-feat {
     width: 900px;
     height: 900px;
-    background: linear-gradient(160deg, #FFC796 0%, #FF6B95 100%);
+    background: linear-gradient(160deg, #3F72AF 0%, #112D4E 100%);
     -moz-border-radius: 500px;
     -webkit-border-radius: 500px;
     border-radius: 500px;
@@ -94,7 +98,7 @@ nav.uk-navbar-nav {
 .circle-coin {
     width: 680px;
     height: 680px;
-    background: linear-gradient(-160deg, #FFC796 0%, #FF6B95 100%);
+    background: linear-gradient(160deg, #3F72AF 0%, #112D4E 100%);
     -moz-border-radius: 350px;
     -webkit-border-radius: 350px;
     border-radius: 350px;
@@ -107,18 +111,18 @@ nav.uk-navbar-nav {
 
 
 header {
-    background: url("../img/deco.png"),linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
+    background: url("../img/deco.png"),linear-gradient(137deg, #3F72AF 0%, #112D4E 100%);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
 }
 
 header .uk-navbar-nav>li>a {
-    color: white;
+    color: rgba(255, 255, 255, 0.71);
 }
 
 header .uk-navbar-nav>li>a:hover {
-    color: black;
+    color: #ffffff;
 }
 
 header.uk-active {
@@ -131,7 +135,7 @@ header.uk-active {
 }
 
 .uk-navbar-nav>li>a.active {
-    color: #ee395b;
+    color: #3F72AF;
 }
 
 .grand-title {
@@ -144,7 +148,7 @@ header.uk-active {
 }
 
 .cta input {
-    height: 64px;
+    height: 63px;
     padding-left: 30px;
     padding-right: 50px;
 }
@@ -213,7 +217,7 @@ header.uk-active {
 }
 
 .roadmap {
-    background: linear-gradient(180deg, #FFC796 0%, #FF6B95 100%);
+    background: linear-gradient(180deg, #6385af 0%, #162e4e 100%);
     position: relative;
 }
 
@@ -318,7 +322,7 @@ header.uk-active {
     height: 100%;
     top: 0;
     border-radius: 50%;
-    background: linear-gradient(-160deg, rgba(255, 199, 150, 0.45) 0%, rgba(255, 107, 149, 0.45) 100%);
+    background: linear-gradient(-160deg, rgba(63, 114, 175, 0.46) 0%, rgba(17, 45, 78, 0.45) 100%);
     transition: all 0.4s;
     opacity: 1;
 }
@@ -332,11 +336,11 @@ header.uk-active {
 }
 
 .social-links .uk-icon-button{
-    background-color: rgba(255, 107, 149, 0.75);
+    background-color: rgba(63, 114, 175, 0.76);
     color: white;
 }
 .social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover{
-    background-color: #FF6B95;
+    background-color: rgb(63, 114, 175);
     color: white;
 }
 
@@ -346,7 +350,7 @@ header.uk-active {
 
 .supp-logo-wrapper {
     display: inline-block;
-    border: 1px dashed #ee6893;
+    border: 1px dashed #3F72AF;
     padding: 38px 30px;
     border-radius: 50%;
 }
@@ -378,15 +382,15 @@ header.uk-active {
 }
 
 .hap-social a {
-    color: rgba(255, 107, 149, 0.76);
+    color: rgba(63, 114, 175, 0.77);
 }
 
 .hap-social a:hover {
-    color: #FF6B95;
+    color: #3F72AF;
 }
 
 footer {
-    background-image: linear-gradient(137deg, #FFC796 0%, #FF6B95 100%);
+    background: linear-gradient(137deg, #3F72AF 0%, #112D4E 100%);
 }
 
 @media (max-width: 400px) {
