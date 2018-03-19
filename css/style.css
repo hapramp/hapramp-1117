@@ -363,7 +363,8 @@ header video {
     width: 70px;
 }
 .supp-wrapper .logo.full-width {
-    width: 135px;
+    width: auto;
+    height: 135px;
 }
 
 .supp-logo-wrapper.remove-border {
