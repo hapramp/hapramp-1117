@@ -381,7 +381,7 @@ header video {
     padding-right: 100px;
 }
 
-.hap-social a{
+.hap-social a.social-icon {
     width: 64px;
     height: 64px;
 }
@@ -396,6 +396,26 @@ header video {
 
 footer {
     background: linear-gradient(137deg, #3F72AF 0%, #112D4E 100%);
+}
+
+.pow-container {
+    display: inline-flex;
+}
+
+.pow-container img{
+    max-width: none;
+}
+
+.pow-container .pow-icon img {
+    max-height: 88px;
+}
+
+.hap-pow {
+    text-align: left
+}
+
+.hap-pow-title {
+    margin-bottom: 20px;
 }
 
 @media (max-width: 400px) {
@@ -499,5 +519,9 @@ footer {
 
     .roadmap-connect:before {
         display: none;
+    }
+
+    .hap-pow {
+        text-align: center;
     }
 }
