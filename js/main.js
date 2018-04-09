@@ -23,7 +23,7 @@ function subscribeAPI($this, subscriptionType) {
   var email = $email.val();
 
   $.ajax({
-    url: api+'subscribe/'+subscriptionType,
+    url: 'https://hapramp.herokuapp.com/api/subscribe/'+subscriptionType,
     type: 'POST',
     contentType: 'application/json',
     data: JSON.stringify({ email: email }),
