@@ -418,6 +418,22 @@ footer {
     margin-bottom: 20px;
 }
 
+.video-icon {
+    border: 4px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.85);
+    transition: all 0.3s;
+}
+
+.video-icon:hover {
+    color: rgb(255, 255, 255);
+}
+
 @media (max-width: 400px) {
     .hero-contents .sub-title {
         display: none;
@@ -458,14 +474,6 @@ footer {
 
 
 @media (max-width: 640px) {
-    .hero-contents .sub-title {
-        padding-right: 0;
-        text-align: center;
-    }
-
-    .grand-title {
-        text-align: center;
-    }
 
     .feat-wrapper {
         text-align: center;
@@ -477,6 +485,7 @@ footer {
 
     .cta input {
         text-align: center;
+        width: 100%;
     }
 
     .hap-social {
@@ -493,9 +502,28 @@ footer {
     .feat.cta input.submit {
         /*left: 0;*/
     }
+
+    #early-access > div {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 960px) {
+
+    .hero-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grand-title {
+        text-align: center;
+    }
+
+    .hero-contents .sub-title {
+        padding-right: 0;
+        text-align: center;
+    }
 
     .hap-meta {
         text-align: center;
@@ -522,6 +550,32 @@ footer {
     }
 
     .hap-pow {
+        text-align: center;
+    }
+
+    #early-access > div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    #early-access > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grand-title {
+        text-align: center;
+    }
+
+    .hero-contents .sub-title {
+        padding-right: 0;
         text-align: center;
     }
 }
