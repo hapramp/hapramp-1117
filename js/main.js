@@ -14,7 +14,7 @@ $(document).ready(function () {
   })
 });
 
-const api = 'http://hapramp.herokuapp.com/api/';
+const api = 'https://hapramp.herokuapp.com/api/';
 
 function subscribeAPI($this, subscriptionType) {
 
