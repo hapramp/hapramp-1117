@@ -19,6 +19,8 @@ var api = 'https://hapramp.herokuapp.com/api/';
 function subscribeAPI($this, subscriptionType) {
 
   $this = $($this);
+
+  $this.toggleClass('progress');
   var $email = $this.find('input.email');
   var email = $email.val();
 
@@ -29,6 +31,7 @@ function subscribeAPI($this, subscriptionType) {
     data: JSON.stringify({ email: email }),
     dataType: 'json',
     success: function(data){
+      $this.toggleClass('progress');
       $email.val("");
       UIkit.notification({
         message: "We've received your email. We'll get back to you soon.",

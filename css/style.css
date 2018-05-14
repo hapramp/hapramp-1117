@@ -434,6 +434,26 @@ footer {
     color: rgb(255, 255, 255);
 }
 
+#request-apk.progress .loader, #early-access.progress .loader  {
+    display: inline-block;
+}
+
+#early-access .loader, #request-apk .loader{
+    display: none;
+}
+
+#early-access .cta-button {
+    display: flex;
+}
+
+#request-apk .cta-button{
+    display: block;
+}
+
+#early-access.progress .cta-button, #request-apk.progress .cta-button{
+    display: none;
+}
+
 @media (max-width: 400px) {
     .hero-contents .sub-title {
         display: none;
@@ -576,6 +596,10 @@ footer {
 
     .hero-contents .sub-title {
         padding-right: 0;
+        text-align: center;
+    }
+
+    #early-access.progress {
         text-align: center;
     }
 }
