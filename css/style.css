@@ -339,16 +339,20 @@ header video {
     opacity: 0;
 }
 
-.social-links .uk-icon-button, .social-wrapper .uk-icon-button{
+.social-links .uk-icon-button, .social-wrapper .uk-icon-button, .cta-icon .uk-icon-button{
     background-color: rgba(63, 114, 175, 0.76);
     color: white;
 }
-.social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover, .social-wrapper .uk-icon-button:hover, .social-wrapper .uk-icon-button:focus {
+.social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover, .social-wrapper .uk-icon-button:hover, .social-wrapper .uk-icon-button:focus, .cta-icon .uk-icon-button:hover, .cta-icon .uk-icon-button:focus {
     background-color: rgb(63, 114, 175);
     color: white;
 }
 
 .social-wrapper {
+    justify-content: center;
+}
+
+.social-wrapper > div {
     justify-content: center;
 }
 
@@ -365,6 +369,12 @@ header video {
 .social-wrapper a.social-icon {
     width: 80px;
     height: 80px;
+}
+
+.cta-icon .uk-icon-button {
+    width: 136px;
+    height: 136px;
+    font-size: 20px;
 }
 
 .social-wrapper a {
@@ -438,6 +448,14 @@ footer {
 
 #early-access.progress .cta-button, #request-apk.progress .cta-button{
     display: none;
+}
+
+.cta .hap-social {
+    border-color: rgba(0, 0, 0, 0.38);
+}
+
+.cta {
+    background-color: rgba(63, 114, 175, 0.11);
 }
 
 @media (max-width: 400px) {
