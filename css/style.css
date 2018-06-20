@@ -339,36 +339,17 @@ header video {
     opacity: 0;
 }
 
-.social-links .uk-icon-button{
+.social-links .uk-icon-button, .social-wrapper .uk-icon-button{
     background-color: rgba(63, 114, 175, 0.76);
     color: white;
 }
-.social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover{
+.social-links .uk-icon-button:focus, .social-links .uk-icon-button:hover, .social-wrapper .uk-icon-button:hover, .social-wrapper .uk-icon-button:focus {
     background-color: rgb(63, 114, 175);
     color: white;
 }
 
-.supp-wrapper{
+.social-wrapper {
     justify-content: center;
-}
-
-.supp-logo-wrapper {
-    display: inline-block;
-    border: 1px dashed #3F72AF;
-    padding: 38px 30px;
-    border-radius: 50%;
-}
-
-.supp-wrapper .logo {
-    width: 70px;
-}
-.supp-wrapper .logo.full-width {
-    width: auto;
-    height: 135px;
-}
-
-.supp-logo-wrapper.remove-border {
-    border: none;
 }
 
 .hap-social {
@@ -381,16 +362,16 @@ header video {
     padding-right: 100px;
 }
 
-.hap-social a.social-icon {
-    width: 64px;
-    height: 64px;
+.social-wrapper a.social-icon {
+    width: 80px;
+    height: 80px;
 }
 
-.hap-social a {
+.social-wrapper a {
     color: rgba(63, 114, 175, 0.77);
 }
 
-.hap-social a:hover {
+.social-wrapper a:hover {
     color: #3F72AF;
 }
 
@@ -407,11 +388,16 @@ footer {
 }
 
 .pow-container .pow-icon img {
-    max-height: 88px;
+    max-height: 64px;
 }
 
 .hap-pow {
-    text-align: left
+    text-align: left;
+    margin-right: 40px;
+}
+
+.hap-pow:not(:last-child) {
+    margin-bottom: 40px;
 }
 
 .hap-pow-title {
@@ -555,6 +541,7 @@ footer {
         justify-content: center;
         padding-left: 0;
         border-left: 0;
+        flex-direction: column;
     }
 
     .hap-social >div {
@@ -571,6 +558,7 @@ footer {
 
     .hap-pow {
         text-align: center;
+        margin-right: 0;
     }
 
     #early-access > div {
