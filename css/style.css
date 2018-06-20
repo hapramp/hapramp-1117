@@ -23,6 +23,33 @@ nav.uk-navbar-nav {
     justify-content:flex-end;
 }
 
+nav .uk-navbar-item.uk-logo svg{
+    fill:white;
+}
+
+nav.uk-active .uk-navbar-item.uk-logo svg{
+    fill:#3F72AF;
+}
+
+nav .nav-cta .uk-icon-button{
+    color: rgb(63, 114, 175);
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+nav .nav-cta .uk-icon-button:focus, nav .nav-cta .uk-icon-button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+nav.uk-active .nav-cta .uk-icon-button{
+    background-color: rgba(63, 114, 175, 0.76);
+    color: white;
+}
+
+nav.uk-active .nav-cta .uk-icon-button:focus, nav.uk-active .nav-cta .uk-icon-button:hover {
+    background-color: rgb(63, 114, 175);
+    color: white;
+}
+
 .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
     color: white;
 }
