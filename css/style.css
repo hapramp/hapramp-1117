@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 nav.uk-active {
     background-color: white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -433,10 +437,6 @@ footer {
     margin-right: 40px;
 }
 
-.hap-pow:not(:last-child) {
-    margin-bottom: 40px;
-}
-
 .hap-pow-title {
     margin-bottom: 20px;
 }
@@ -483,6 +483,10 @@ footer {
 
 .cta-big {
     background-color: rgba(63, 114, 175, 0.11);
+}
+
+a.uk-icon-button {
+    text-decoration: none;
 }
 
 @media (max-width: 400px) {
@@ -604,6 +608,7 @@ footer {
     .hap-pow {
         text-align: center;
         margin-right: 0;
+        margin-bottom: 40px;
     }
 
     #early-access > div {
