@@ -477,11 +477,11 @@ footer {
     display: none;
 }
 
-.cta .hap-social {
+.cta-big .hap-social {
     border-color: rgba(0, 0, 0, 0.38);
 }
 
-.cta {
+.cta-big {
     background-color: rgba(63, 114, 175, 0.11);
 }
 
