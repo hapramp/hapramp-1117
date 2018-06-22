@@ -489,6 +489,11 @@ a.uk-icon-button {
     text-decoration: none;
 }
 
+
+.hap-pow:first-child {
+    margin-bottom: 40px;
+}
+
 @media (max-width: 400px) {
     .hero-contents .sub-title {
         display: none;
