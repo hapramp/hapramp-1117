@@ -406,6 +406,7 @@ header video {
     width: 136px;
     height: 136px;
     font-size: 20px;
+    flex-direction: column;
 }
 
 .social-wrapper a {
