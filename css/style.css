@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -148,6 +153,11 @@ header {
     min-height: 100vh;
 }
 
+header.partner {
+    height: 520px;
+    min-height: 520px;
+}
+
 header .uk-navbar-nav>li>a {
     color: rgba(255, 255, 255, 0.71);
 }
@@ -167,6 +177,10 @@ header video {
 .hero {
     height: calc(100vh - 80px);
     align-items: center;
+}
+
+.hero.partner {
+    height: 440px;
 }
 
 .uk-navbar-nav>li>a.active {
@@ -478,11 +492,11 @@ footer {
     display: none;
 }
 
-.cta-big .hap-social {
+.cta-big .hap-social, .plan .hap-social {
     border-color: rgba(0, 0, 0, 0.38);
 }
 
-.cta-big {
+.cta-big, .plan {
     background-color: rgba(63, 114, 175, 0.11);
 }
 
@@ -493,6 +507,32 @@ a.uk-icon-button {
 
 .hap-pow:first-child {
     margin-bottom: 40px;
+}
+
+.hero.partner .sub-title-partner {
+    font-size: 24px;
+}
+
+.intro-wrapper {
+    position: relative;
+}
+
+.intro-wrapper::before {
+    content: '"';
+    font-size: 72px;
+    color: #3f72af;
+    position: absolute;
+    left: -8px;
+    top: -37px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.split-section-header {
+    font-size: 24px;
+}
+
+.plan ul{
+    list-style-image: url('../img/icons/bullet@3x.svg');
 }
 
 @media (max-width: 400px) {

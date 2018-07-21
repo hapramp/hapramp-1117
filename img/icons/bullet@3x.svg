@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bullet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-2.000000, -22.000000)" fill="#3F72AF" fill-rule="nonzero">
+            <g id="bullet" transform="translate(2.000000, 22.000000)">
+                <path d="M7.5,14.673913 C3.53795723,14.673913 0.326086957,11.4620428 0.326086957,7.5 C0.326086957,3.53795723 3.53795723,0.326086957 7.5,0.326086957 C11.4620428,0.326086957 14.673913,3.53795723 14.673913,7.5 C14.673913,11.4620428 11.4620428,14.673913 7.5,14.673913 Z M7.5,14.0217391 C11.1018571,14.0217391 14.0217391,11.1018571 14.0217391,7.5 C14.0217391,3.89814294 11.1018571,0.97826087 7.5,0.97826087 C3.89814294,0.97826087 0.97826087,3.89814294 0.97826087,7.5 C0.97826087,11.1018571 3.89814294,14.0217391 7.5,14.0217391 Z" id="Oval-2"></path>
+                <polygon id="Line-2" points="6.78084256 9.33900963 11.7947693 5.41177735 12.1969183 5.92520404 6.72818783 10.2086681 3.77797384 7.25845411 4.23913043 6.79729751"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
