@@ -12,6 +12,17 @@ $(document).ready(function () {
     e.preventDefault();
     subscribeAPI(this, 'apk');
   })
+
+  $('#mG61Hd').submit(function (e) {
+    console.log("I submitted")
+
+    $this = $(this);
+
+    $this.toggleClass('progress');
+
+
+
+  })
 });
 
 var api = 'https://hapramp.herokuapp.com/api/';
@@ -51,4 +62,13 @@ function subscribeAPI($this, subscriptionType) {
     },
     processData: false
   });
+}
+
+function clearPartnerForm() {
+  var $form = $('#mG61Hd');
+  $form.find('input.email').val("");
+  $form.find('input.username').val("");
+  $form.toggleClass('progress');
+
+
 }

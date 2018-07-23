@@ -472,11 +472,11 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-#request-apk.progress .loader, #early-access.progress .loader  {
+#request-apk.progress .loader, #early-access.progress .loader, #mG61Hd.progress .loader   {
     display: inline-block;
 }
 
-#early-access .loader, #request-apk .loader{
+#early-access .loader, #request-apk .loader, #mG61Hd .loader{
     display: none;
 }
 
@@ -488,7 +488,7 @@ footer {
     display: block;
 }
 
-#early-access.progress .cta-button, #request-apk.progress .cta-button{
+#early-access.progress .cta-button, #request-apk.progress .cta-button, #mG61Hd.progress .cta-button{
     display: none;
 }
 
@@ -509,6 +509,10 @@ a.uk-icon-button {
     margin-bottom: 40px;
 }
 
+.hero.partner {
+    justify-content: center;
+}
+
 .hero.partner .sub-title-partner {
     font-size: 24px;
 }
@@ -527,12 +531,20 @@ a.uk-icon-button {
     font-family: 'Open Sans', sans-serif;
 }
 
+.intro > .uk-grid {
+    padding-left: 40px;
+}
+
 .split-section-header {
     font-size: 24px;
 }
 
 .plan ul{
     list-style-image: url('../img/icons/bullet@3x.svg');
+}
+
+.cta.partner button.submit, .cta.partner input.submit {
+    left: 0;
 }
 
 @media (max-width: 400px) {
