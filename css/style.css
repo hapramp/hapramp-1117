@@ -699,3 +699,11 @@ a.uk-icon-button {
         text-align: center;
     }
 }
+
+@media (min-width: 1200px) {
+
+    .coin-row2 > .uk-grid {
+        margin-left: 0;
+    }
+
+}
