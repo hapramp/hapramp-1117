@@ -57,7 +57,7 @@
 <div class="wrapper">
 
     <!--Header Starts-->
-    <header class="partner" data-vide-bg="video/hero_video" data-vide-options="loop: true, muted: false,autoplay: true">
+    <header id="partner-hero" class="partner" data-vide-bg="video/hero_video" data-vide-options="loop: true, muted: false,autoplay: true">
         <nav is uk-sticky="show-on-up: true;animation: uk-animation-slide-top;"
              class="uk-navbar uk-navbar-container uk-navbar-transparent uk-padding-large uk-padding-remove-vertical">
 
@@ -130,7 +130,7 @@
                 <div class="qa-wrapper">
                     <ul class="bg-white padding-24px" uk-accordion>
                         <li class="uk-open">
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 What is HapRamp?
                             </a>
@@ -144,7 +144,7 @@
                         </li>
 
                         <li>
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 How do I signup on HapRamp?
                             </a>
@@ -161,7 +161,7 @@
                         </li>
 
                         <li>
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 What is Steem?
                             </a>
@@ -179,7 +179,7 @@
                         </li>
 
                         <li>
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 How do I earn rewards on my posts?
                             </a>
@@ -190,7 +190,7 @@
                         </li>
 
                         <li>
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 What are Steem Dollars, Steem, and Steem-Power?
                             </a>
@@ -203,7 +203,7 @@
                         </li>
 
                         <li>
-                            <a class="uk-accordion-title text-grey-87 title-text uk-text-bold uk-display-block"
+                            <a class="uk-accordion-title text-grey-87 text-color-primary uk-text-bold uk-display-block"
                                href="#">
                                 Where can I get the HapRamp App?
                             </a>
@@ -223,82 +223,101 @@
     <div class="uk-padding-large"></div>
 
 
-    <footer class="footer uk-margin-top">
-        <div class=" uk-container">
-            <div class="uk-padding-large"></div>
-            <div class="uk-grid uk-margin-remove-left">
-                <div class="uk-width-1-2@m text-color-white-a70 hap-meta uk-padding-remove-left">
-                    <h1 class="text-color-white uk-text-uppercase title-text uk-margin-remove-bottom">Hapramp Studio
-                    </h1>
-                    <p>Nasscom - Hartron Innovation Campus, Sec-20 Gurugram, Haryana (India)
-                    </p>
-                    <div class="email uk-margin-medium-top">
-                        <h4 class="text-color-white uk-text-uppercase uk-margin-remove-bottom">Email</h4>
-                        <p class="uk-margin-remove">hi@hapramp.com</p>
+    <footer class="footer uk-overflow-hidden uk-margin-top">
+        <div class="uk-container">
+            <div class="uk-padding width-100"></div>
+            <div class="uk-grid">
+                <div class="uk-width-1-6@l"></div>
+
+                <div class="uk-width-1-6@l uk-width-1-4@m uk-width-1-2@s footer-section">
+                    <h4 class="section-title text-color-white title-text">Links</h4>
+                    <div class="uk-padding-small width-100"></div>
+                    <div class="links-container">
+                        <ul class="uk-list uk-text-uppercase footer-link-list">
+                            <li class="uk-margin-small-bottom"><a href='index.html'>Home</a></li>
+                            <li class="uk-margin-small-bottom"><a href='about.html'>About</a></li>
+                            <li class="uk-margin-small-bottom"><a data-speed="400" class="scroll"  href='#partner-hero'>FAQs</a></li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="uk-width-1-2@m hap-social uk-text-center uk-flex uk-flex-wrap">
-                    <div class="hap-pow">
-                        <div class="title-text text-color-white hap-pow-title">Incubated at</div>
-                        <div class="pow-container">
-                            <div class="pow-icon uk-margin-small-right">
-                                <a href="http://huddle.work/" class="supp-logo-wrapper uk-padding-remove remove-border"
-                                   target="_blank">
-                                    <img class="logo full-width" src="img/orgs/huddle.png"
-                                         alt="Huddle">
+                <div class="uk-width-1-6@l uk-width-1-2@m uk-width-1-2@s footer-section">
+                    <h4 class="section-title  text-color-white title-text">Social</h4>
+                    <div class="uk-padding-small width-100"></div>
+                    <div class="links-container">
+                        <ul class="uk-list uk-text-uppercase social-link-list">
+                            <li
+                                    class="uk-margin-small-bottom">
+                                <a href=" https://www.facebook.com/hapramp/" class="uk-margin-small-bottom" target="_blank">Facebook
                                 </a>
-                            </div>
-
-
-                            <div class="pow-icon">
-                                <a href="http://10000startups.com/"
-                                   class="supp-logo-wrapper  uk-padding-remove remove-border" target="_blank">
-                                    <img class="logo full-width" src="img/orgs/nascomm_logo.png"
-                                         alt="10000 startup Nascomm">
+                            </li>
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                                <a href="https://twitter.com/HapRamp" class="uk-margin-small-bottom" target="_blank">Twitter
                                 </a>
-                            </div>
-                        </div>
+                            </li>
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                                <a href="https://www.instagram.com/hapramp/" class="uk-margin-small-bottom" target="_blank">Instagram
+                                </a>
+                            </li>
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                                <a href="https://www.linkedin.com/company/13405668/" class="uk-margin-small-bottom" target="_blank">LinkedIn
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="hap-pow">
-                        <div class="title-text text-color-white hap-pow-title">Powered by</div>
-                        <div class="pow-container">
-                            <div class="pow-icon uk-margin-small-right">
-                                <a href="https://hasura.io/" class="supp-logo-wrapper  uk-padding-remove remove-border"
+                <div class="uk-width-1-6@l uk-width-1-2@m uk-width-1-2@s footer-section">
+                    <h4 class="section-title  text-color-white title-text title-text">Blogs</h4>
+                    <div class="uk-padding-small width-100"></div>
+                    <div class="links-container">
+                        <ul class="uk-list uk-text-uppercase social-link-list">
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                                <a href="https://busy.org/@hapramp" class="uk-margin-small-bottom"
                                    target="_blank">
-                                    <img class="logo full-width"
-                                         src="https://cdn.discordapp.com/attachments/420868829321625600/425217345506639872/hasura-logo-F2B634BFC4-seeklogo.com.png"
-                                         alt="Hasura">
-                                </a>
-                            </div>
 
-
-                            <div class="pow-icon">
-                                <a href="" class="supp-logo-wrapper  uk-padding-remove remove-border" target="_blank">
-                                    <img class="logo full-width"
-                                         src="img/amazon%20web%20services%20activate%20program.png" alt="Amazon Power">
+                                    Busy.org
                                 </a>
-                            </div>
-                        </div>
+                            </li>
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top uk-margin-medium-right">
+                                <a href="https://medium.com/hapramp" class="uk-margin-small-bottom" target="_blank">
+                                    Medium
+                                </a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                    <div class="hap-pow">
-                        <div class="title-text text-color-white hap-pow-title">Support Org</div>
-                        <div class="pow-container">
-                            <div class="pow-icon">
-                                <a href="http://iiitvadodara.ac.in/"
-                                   class="supp-logo-wrapper  uk-padding-remove remove-border" target="_blank">
-                                    <img class="logo full-width" src="img/orgs/iiitv.png"
-                                         alt="IIIT Vadodara">
-                                </a>
-                            </div>
-                        </div>
+                <div class="uk-width-1-6@l  uk-width-1-4@m uk-width-1-2@s footer-section">
+                    <h4 class="section-title text-color-white title-text">Contact</h4>
+                    <div class="uk-padding-small width-100"></div>
+                    <div class="links-container">
+                        <ul class="uk-list uk-text-uppercase social-link-list">
+                            <li
+                                    class="uk-margin-small-bottom uk-display-inline-block uk-margin-remove-top">
+                                <a href="mailto:hi@hapramp.com" class="uk-margin-small-bottom" target="_blank">hi@hapramp.com</a>
+
+                        </ul>
                     </div>
                 </div>
             </div>
+            <div class="uk-padding-small width-100"></div>
+
+            <div class="uk-grid">
+                <div class="uk-width-1-6@l"></div>
+                <div class="uk-width-2-3@l">
+                    <div class="tc-section-divider"></div>
+                    <div class="uk-padding-small"></div>
+                    <span class="text-color-white">Copyright @ Hapramp</span></div>
+            </div>
+
+            <div class="uk-padding-small width-100"></div>
         </div>
-        <div class="uk-padding-large"></div>
     </footer>
 </div>
 </div>
