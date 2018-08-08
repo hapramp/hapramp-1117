@@ -2,7 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
-    color: rgba(0, 0, 0, 0.38);
+    color: rgba(0, 0, 0, 0.55);
     overflow-x: hidden;
 }
 
@@ -437,6 +437,7 @@ footer {
 
 .pow-container {
     display: inline-flex;
+    justify-content: center;
 }
 
 .pow-container img{
@@ -444,7 +445,7 @@ footer {
 }
 
 .pow-container .pow-icon img {
-    max-height: 64px;
+    max-height: 80px;
 }
 
 .hap-pow {
@@ -545,6 +546,24 @@ a.uk-icon-button {
 
 .cta.partner button.submit, .cta.partner input.submit {
     left: 0;
+}
+
+footer .links-container a {
+    color: rgba(255, 255, 255, 0.81);
+    /*text-decoration: underline;*/
+}
+
+footer .links-container a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.tc-section-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.associated-links-wrapper {
+    justify-content: center;
 }
 
 @media (max-width: 400px) {
@@ -672,6 +691,10 @@ a.uk-icon-button {
     #early-access > div {
         display: flex;
         justify-content: center;
+    }
+
+    footer .links-container li {
+        display: inline-block;
     }
 }
 
