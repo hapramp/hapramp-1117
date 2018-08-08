@@ -437,6 +437,7 @@ footer {
 
 .pow-container {
     display: inline-flex;
+    justify-content: center;
 }
 
 .pow-container img{
