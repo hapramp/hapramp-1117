@@ -547,6 +547,20 @@ a.uk-icon-button {
     left: 0;
 }
 
+footer .links-container a {
+    color: rgba(255, 255, 255, 0.81);
+    /*text-decoration: underline;*/
+}
+
+footer .links-container a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.tc-section-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.38);
+}
+
 @media (max-width: 400px) {
     .hero-contents .sub-title {
         display: none;
