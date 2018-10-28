@@ -36,6 +36,10 @@ nav .uk-navbar-item.uk-logo svg{
     fill:white;
 }
 
+nav.uk-active .uk-navbar-item.uk-logo .community-logo {
+    color: rgba(0, 0, 0, 0.87);
+}
+
 nav.uk-active .uk-navbar-item.uk-logo svg{
     fill:#3F72AF;
 }
@@ -76,11 +80,39 @@ nav.uk-active .nav-cta .uk-icon-button:focus, nav.uk-active .nav-cta .uk-icon-bu
 }
 
 .text-color-yellow {
-    color: #112D4E;
+    background-color: #112D4E;
 }
 
 .text-color-white-a70 {
     color: rgba(255, 255, 255, 0.71);
+}
+
+.border-antique-white  {
+    border: 1px solid #faebd7 ;
+}
+
+.bg-color-antique-white {
+    background-color: #faebd7;
+}
+
+.border-light-blue  {
+    border: 1px solid rgba(100, 149, 237, 0.54);
+}
+
+.bg-color-light-blue {
+    background-color: rgba(100, 149, 237, 0.54);
+}
+
+.border-orange  {
+    border: 1px solid #e58559;
+}
+
+.bg-color-orange {
+    background-color: #e58559;
+}
+
+.bg-black {
+    background-color: black;
 }
 
 .title-text {
@@ -94,6 +126,10 @@ nav.uk-active .nav-cta .uk-icon-button:focus, nav.uk-active .nav-cta .uk-icon-bu
 
 .uk-padding-medium {
     padding: 30px;
+}
+
+.text-strike {
+    text-decoration: line-through;
 }
 
 .triangle-up {
@@ -196,8 +232,11 @@ header video {
     padding-right: 100px;
 }
 
-.cta input {
-    height: 63px;
+.cta input, .cta select {
+    height: 63px !important;
+}
+
+.cta textarea, .cta select, .cta input {
     padding-left: 30px;
     padding-right: 50px;
 }
@@ -497,7 +536,7 @@ footer {
     border-color: rgba(0, 0, 0, 0.38);
 }
 
-.cta-big, .plan {
+.cta-big, .plan, #weareone, #community-ctam, #perk-forms, #community-cta  {
     background-color: rgba(63, 114, 175, 0.11);
 }
 
@@ -565,6 +604,25 @@ a.uk-icon-button {
 }
 
 
+.flex-justify {
+    justify-content: center;
+}
+
+.reg-form {
+    padding: 56px;
+    background-color: white;
+}
+
+.plan-pricing {
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.plan-pricing .data {
+    padding: 16px;
+}
+
+
 
 
 footer .links-container a {
@@ -621,6 +679,10 @@ footer .links-container a:hover {
         font-size: 48px;
         line-height: 56px;
     }
+
+    .reg-form {
+        padding: 24px;
+    }
 }
 
 
@@ -634,7 +696,7 @@ footer .links-container a:hover {
         text-align: center;
     }
 
-    .cta input {
+    .cta input{
         text-align: center;
         width: 100%;
     }
@@ -716,6 +778,19 @@ footer .links-container a:hover {
     footer .links-container li {
         display: inline-block;
     }
+
+    .weareone-wrapper {
+        text-align: center;
+    }
+
+    #community-cta {
+        text-align: center;
+    }
+
+    .community-cta-title {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -756,6 +831,10 @@ footer .links-container a:hover {
     .cta > div {
         display: flex;
         align-items: center;
+    }
+
+    .cta.cta-weAreOne > div {
+       justify-content: center;
     }
 
 }
