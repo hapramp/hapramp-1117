@@ -68,6 +68,8 @@ function clearPartnerForm() {
   var $form = $('#mG61Hd');
   $form.find('input.email').val("");
   $form.find('input.username').val("");
+  $form.find('select.plan-dropdown').val("none");
+  $form.find('textarea.query').val("");
   $form.toggleClass('progress');
 
 
