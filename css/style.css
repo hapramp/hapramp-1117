@@ -643,6 +643,10 @@ footer .links-container a:hover {
     justify-content: center;
 }
 
+.cta-playstore.web {
+    margin-left: 10px;
+}
+
 @media (max-width: 400px) {
     .hero-contents .sub-title {
         display: none;
@@ -719,6 +723,10 @@ footer .links-container a:hover {
 
     #early-access > div {
         flex-direction: column;
+    }
+
+    .cta-playstore.web {
+        margin-left: 0;
     }
 
 }
